@@ -55,13 +55,13 @@
 
 %\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
 %\extrainfo{additional information}
-\photo[70pt][0pt]{prof_pic} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+% \photo[70pt][0pt]{prof_pic} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
 \address{}{Munich, Germany}
 \mobile{(+49) 15259375550}
 %\fax{(000) 111 1113}
 \email{kerem.yildirir@tum.de}
 \homepage{keremyldrr.github.io}{keremyldrr.github.io}
-\homepage{github.com/keremyldrr}{GitHub}
+% \homepage{github.com/keremyldrr}{Homepage}
 
 %----------------------------------------------------------------------------------------
 \usepackage{xpatch}
@@ -108,13 +108,15 @@
 \cventry{Jun. 2017 - Aug. 2017 }{Software Engineering Intern}{}{Bilgi Birikim Sistemleri}{Istanbul}{ Worked as a full-stack developer, created a web interface for processing data from a database. Documented it and presented to the executives.}
 \vspace{0.25cm}
 
-\cventry{Sept. 2016 - Jun. 2017}{Learning Assistant}{NS101 Natural Sciences}{Sabanci University}{}{ Aided and guided freshman students in recitation sessions .}
-\vspace{0.25cm}
+% \cventry{Sept. 2016 - Jun. 2017}{Learning Assistant}{NS101 Natural Sciences}{Sabanci University}{}{ Aided and guided freshman students in recitation sessions .}
+% \vspace{0.25cm}
 
 \section{Projects}
+\cventry{ March. 2021 - Present}{3D Object Detection with Uncertainty}{}{Technical University of Munich}{}{Extending state of the art 3D object detection models with uncertainty metrics}{}
+\cventry{ Dec. 2020 - Feb.2021}{\href{https://keremyldrr.github.io/projects/kinecfusion/}{KinectFusion: Dense surface mapping and tracking}}{}{Technical University of Munich}{}{Implemented \href{https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/ismar2011.pdf}{KinectFusion }algorithm for real-time dense surface tracking and mapping from scratch using C++ and CUDA.}{}
 \cventry{ April. 2020 - Sept.2020}{\href{https://keremyldrr.github.io/projects/3d-segmentation/}{Real-time 3D Instance Segmentation}}{}{Technical University of Munich}{}{Designed and implemented a real-time 3D object detection and tracking scheme with Python and ROS without using any annotated 3D data. }{}
 \cventry{ April. 2020 - Jun.2020}{\href{https://keremyldrr.github.io/projects/mot/}{Multiple Object Tracking with Tracktor}}{}{Technical University of Munich}{}{Implemented vanilla Tracktor with Faster-RCNN using PyTorch. Added a basic motion model and also a reidentificaiton network as the paper suggested for Tracktor++ . Developed using the MOT16 benchmark and achieved following results on the training set.}{}
-\cventry{ Mar. 2020 - Present}{\href{https://keremyldrr.github.io/projects/idp/}{Interdisciplinary Project}}{}{Technical University of Munich}{}{Extending the paper “Divergence-Free Shape Correspondence by Deformation” and representing a motion sequence as a time dependent vector field. Solving correspondence and matching problems for the whole sequence during the optimization.}{}
+\cventry{ Mar. 2020 - Dec. 2020}{\href{https://keremyldrr.github.io/projects/idp/}{Interdisciplinary Project}}{}{Technical University of Munich}{}{Extending the paper “Divergence-Free Shape Correspondence by Deformation” and representing a motion sequence as a time dependent vector field. Solving correspondence and matching problems for the whole sequence during the optimization.}{}
 % \cventry{ Oct. 2018 - Jan. 2019}{Parallel Hashing}{Program for Undergraduate Research}{Sabanci University}{}{Parallelized  City Hashing,MurMur Hashing,Tabulation Hashing algorithms with SIMD instructions, improved their performance. }{}
 % \vspace{0.25cm}
 \cventry{ Sept. 2018 - Jun. 2019}{\href{https://keremyldrr.github.io/projects/plant_disease/}{Plant Disease Identification with Deep Learning}}{Graduation Project}{Sabanci University}{\newline Trained a deep convolutional neural network for plant disease identification using transfer learning. Built a user interface for labeling data with multiple attributes. }{}{}
